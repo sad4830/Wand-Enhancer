@@ -25,6 +25,9 @@ global Running := false
 global HoldingLeft := false
 global HoldingRight := false
 
+A_IconTip := "HFF 벽타기 - F6 시작/정지, F8 종료"
+TrayTip "실행 중입니다. 게임 창에서 F6 을 누르면 벽타기를 시작합니다. (F8 종료)", "HFF 벽타기", 1
+
 F6:: {
     global Running
     if Running {
